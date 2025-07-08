@@ -1,0 +1,33 @@
+/* Mobile */
+
+@media (width <= 768px ) {
+	.header {
+		grid-template-columns: 40px auto;
+	}
+
+	.header__logo {
+		width: 40px;
+		height: 53px;
+	}
+
+	.header__nav {
+		justify-self: center;
+	}
+
+	.header__nav-list {
+		flex-wrap: wrap;
+		row-gap: 25px;
+		justify-content: center;
+	}
+
+	.header__social-tel {
+		position: absolute !important;
+		clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+		clip: rect(1px, 1px, 1px, 1px);
+		padding:0 !important;
+		border:0 !important;
+		height: 1px !important;
+		width: 1px !important;
+		overflow: hidden;
+	}
+}

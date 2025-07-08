@@ -1,0 +1,68 @@
+/* Global */
+
+/* Box Model */
+@import url('global/box-model.css');
+
+/* Normalize */
+
+@import url('global/normalize.css');
+
+/* Colors */
+
+@import url('colors/index.css');
+
+/* Blocks */
+
+/* Page */
+
+@import url('blocks/page/index.css');
+
+/* Hero */
+
+@import url('blocks/hero/index.css');
+
+/* Header */
+
+@import url('blocks/header/index.css');
+
+/* Main */
+
+@import url('blocks/main/index.css');
+
+/* Events */
+
+@import url('blocks/events/index.css');
+
+/* Advantages */
+
+@import url('blocks/advantages/index.css');
+
+/* Questions */
+
+@import url('blocks/questions/index.css');
+
+/* Footer */
+
+@import url('blocks/footer/index.css');
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Yandex Sans';
+    src: local('Yandex Sans Display Regular'), local('YandexSansDisplay-Regular'),
+        url('../fonts/YandexSansDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/YandexSansDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yandex Sans';
+    src: local('Yandex Sans Display Bold'), local('YandexSansDisplay-Bold'),
+        url('../fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/YandexSansDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+	font-display: swap;
+}

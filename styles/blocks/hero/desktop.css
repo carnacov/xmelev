@@ -1,0 +1,43 @@
+/* Desktop */
+
+@media (width <= 1650px ) {
+	.hero__container {
+		grid-template-columns: 1fr;
+	}
+
+	.hero__picture {
+		grid-column: 1;
+		grid-row: 2;
+		justify-self: center;
+	}
+
+	.hero__picture-img {
+		border-radius: 30px;
+	}
+
+	.hero__title {
+		grid-column: 1;
+		grid-row: 3;
+		text-align: center;
+		justify-self: center;
+	}
+
+	.hero__sub-title {
+		text-align: center;
+		justify-self: center;
+	}
+
+	.hero__sub-title:first-child {
+		grid-row: 4;
+	}
+
+	.hero__sub-title:last-child {
+		grid-row: 5;
+	}
+
+	.hero__sub {
+		grid-row: 6;
+		text-align: center;
+		justify-self: center;
+	}
+}

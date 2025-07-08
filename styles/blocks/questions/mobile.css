@@ -1,0 +1,12 @@
+/* Mobile */
+
+@media (width <= 768px ) {
+	.questions {
+		grid-template-columns: 1fr;
+		row-gap: 25px;
+	}
+
+	.questions__title {
+		grid-column: 1;
+	}
+}

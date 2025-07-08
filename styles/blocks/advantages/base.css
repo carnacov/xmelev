@@ -1,0 +1,37 @@
+/* Base */
+
+.advantages__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 50px;
+	row-gap: 50px;
+}
+
+.advantages__item {
+	padding: 50px;
+	background-color: var(--color-white);
+	max-width: 600px;
+	color: var(--color-darker);
+	border-radius: 30px;
+}
+
+.advantages__sub {
+	background-repeat: no-repeat;
+	padding-top: 100px;
+}
+
+.advantages__sub-1n {
+	background-image: url(/images/icons/brush.svg);
+}
+
+.advantages__sub-2n {
+	background-image: url(/images/icons/glasses.svg);
+}
+
+.advantages__sub-3n {
+	background-image: url(/images/icons/dance.svg);
+}
+
+.advantages__sub-4n {
+	background-image: url(/images/icons/mixer.svg);
+}

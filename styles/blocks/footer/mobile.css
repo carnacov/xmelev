@@ -1,0 +1,24 @@
+/* Mobile */
+
+@media (width <= 768px ) {
+	.footer__container {
+		grid-template-columns: 1fr;
+		padding: 15px;
+	}
+
+	.footer__credits {
+		text-align: end;
+	}
+
+	.footer__container-right {
+		display: grid;
+		justify-items: end;
+		row-gap: 25px;
+		align-items: center;
+	}
+
+	.footer__logo svg {
+		width: 40px;
+		height: 54px;
+	}
+}

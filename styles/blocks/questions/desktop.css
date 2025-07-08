@@ -1,0 +1,7 @@
+/* Desktop */
+
+@media (width <= 1650px) {
+	.questions {
+		column-gap: 50px;
+	}
+}

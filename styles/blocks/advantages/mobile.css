@@ -1,0 +1,11 @@
+/* Mobile */
+
+@media (width <= 768px ) {
+	.advantages__list {
+		grid-template-columns: 1fr;
+	}
+
+	.advantages__item {
+		padding: 15px;
+	}
+}

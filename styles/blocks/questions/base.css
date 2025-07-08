@@ -1,0 +1,28 @@
+/* Base */
+
+.questions {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 50px;
+	column-gap: 100px;
+	justify-self: space-between;
+}
+
+.questions__title {
+	grid-column: 1 / 3;
+}
+
+.questions__section {
+	max-width: 810px;
+	justify-items: start;
+	align-self: start;
+}
+
+.section__title {
+	font-size: 20px;
+	color: var(--color-black);
+}
+
+.section__sub {
+	color: var(--color-darker);
+}

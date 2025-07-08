@@ -1,0 +1,8 @@
+/* Desktop */
+
+@media (width <= 1650px ) {
+	.advantages__list {
+		column-gap: 25px;
+		row-gap: 25px;
+	}
+}

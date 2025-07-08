@@ -1,0 +1,7 @@
+/* Desktop */
+
+@media (width <= 1230px ) {
+	.footer__credits {
+		text-align: right;
+	}
+}

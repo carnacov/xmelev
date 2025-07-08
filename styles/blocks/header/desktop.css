@@ -1,0 +1,7 @@
+/* Desktop */
+
+@media (width <= 1650px) {
+	.header {
+		grid-row: 1;
+	}
+}

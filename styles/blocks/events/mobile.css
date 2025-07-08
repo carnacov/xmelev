@@ -1,0 +1,25 @@
+/* Mobile */
+
+@media (width <= 768px ) {
+
+	.events__sub {
+		padding: 15px;
+	}
+
+	.events__section {
+		column-gap: 100px;
+	}
+
+	.events__title {
+		font-size: 40px;
+	}
+
+	.events__image-list {
+		grid-template-columns: 1fr;
+		row-gap: 25px;
+	}
+
+	.events__image-item:nth-child(even) {
+		padding-top: 0;
+	}
+}

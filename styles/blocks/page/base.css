@@ -1,0 +1,32 @@
+/* Page */
+
+.page {
+	color: var(--color-black);
+	font-family: Yandex Sans, sans-serif;
+	font-size: 20px;
+	line-height: 135%;
+}
+
+a, u, li{
+	list-style: none;
+	text-decoration: 0;
+}
+
+/* Body */
+
+.page__body {
+	margin: 0;
+	background-color: var(--color-lighter);
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 50px;
+	max-width: 1920px;
+	row-gap: 25px;
+}
