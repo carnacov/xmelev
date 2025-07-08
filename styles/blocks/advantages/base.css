@@ -21,17 +21,17 @@
 }
 
 .advantages__sub-1n {
-	background-image: url(/images/icons/brush.svg);
+	background-image: url('/images/icons/brush.svg');
 }
 
 .advantages__sub-2n {
-	background-image: url(/images/icons/glasses.svg);
+	background-image: url('/images/icons/glasses.svg');
 }
 
 .advantages__sub-3n {
-	background-image: url(/images/icons/dance.svg);
+	background-image: url('/images/icons/dance.svg');
 }
 
 .advantages__sub-4n {
-	background-image: url(/images/icons/mixer.svg);
+	background-image: url('/images/icons/mixer.svg');
 }
