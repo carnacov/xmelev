@@ -54,8 +54,8 @@
 @font-face {
     font-family: 'Yandex Sans';
     src: local('Yandex Sans Display Regular'), local('YandexSansDisplay-Regular'),
-        url('../fonts/YandexSansDisplay-Regular.woff2') format('woff2'),
-        url('../fonts/YandexSansDisplay-Regular.woff') format('woff');
+        url('/fonts/YandexSansDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/YandexSansDisplay-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 	font-display: swap;
@@ -64,8 +64,8 @@
 @font-face {
     font-family: 'Yandex Sans';
     src: local('Yandex Sans Display Bold'), local('YandexSansDisplay-Bold'),
-        url('../fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
-        url('../fonts/YandexSansDisplay-Bold.woff') format('woff');
+        url('/fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
+        url('/fonts/YandexSansDisplay-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 	font-display: swap;
